@@ -10,6 +10,30 @@ class LoginPage extends StatelessWidget {
     return DsiScaffold(
       body: Column(
         children: <Widget>[
+          AppBar(
+            //O LEADING eh a parte da esquerda. O resto da direita requer Action
+                leading: IconButton(
+                icon: Icon(Icons.menu),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => LoginPage()),
+                  );
+                }
+              ),
+            title: Text("Home"),
+          actions: <Widget> [
+            IconButton(
+              icon: const Icon(Icons.search, color: Colors.white),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => RegisterPage()),
+                );
+              }
+            )
+          ],
+          ),
           Spacer(),
           Image(
             image: Images.bsiLogo,
@@ -25,7 +49,8 @@ class LoginPage extends StatelessWidget {
               ' Desenvolvimento de Sistemas de Informação do BSI/UFRPE.',
               style: Theme.of(context).textTheme.caption.copyWith(fontSize: 12),
             ),
-          )
+          ),
+
         ],
       ),
     );
