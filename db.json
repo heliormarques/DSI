@@ -80,5 +80,87 @@
       "endereco": {"logradouro": "Rua 20","numero": "20", "bairro": "Bairro 20", "cidade": "Cidade 20",
         "estado": "BA", "cep": "00000020"}
     }
+  ],
+  "professors": [
+    { "id": 21, "cpf": "000.000.000-21", "nome":  "Professor 1", "matricula": "000021",
+      "endereco": {"logradouro": "Rua 1","numero": "1", "bairro": "Bairro 1", "cidade": "Cidade 1",
+        "estado": "PE", "cep": "00000001"}
+    },
+    { "id": 22, "cpf": "000.000.000-22", "nome":  "Professor 2", "matricula": "000022",
+      "endereco": {"logradouro": "Rua 2","numero": "2", "bairro": "Bairro 2", "cidade": "Cidade 2",
+        "estado": "PB", "cep": "00000002"}
+    },
+    { "id": 23, "cpf": "000.000.000-23", "nome":  "Professor 3", "matricula": "000023",
+      "endereco": {"logradouro": "Rua 3","numero": "3", "bairro": "Bairro 3", "cidade": "Cidade 3",
+        "estado": "PE", "cep": "00000003"}
+    },
+    { "id": 24, "cpf": "000.000.000-24", "nome":  "Professor 4", "matricula": "000024",
+      "endereco": {"logradouro": "Rua 4","numero": "4", "bairro": "Bairro 4", "cidade": "Cidade 4",
+        "estado": "PI", "cep": "00000004"}
+    },
+    { "id": 25, "cpf": "000.000.000-25", "nome":  "Professor 5", "matricula": "000025",
+      "endereco": {"logradouro": "Rua 5","numero": "5", "bairro": "Bairro 5", "cidade": "Cidade 5",
+        "estado": "SP", "cep": "00000005"}
+    },
+    { "id": 26, "cpf": "000.000.000-26", "nome":  "Professor 6", "matricula": "000026",
+      "endereco": {"logradouro": "Rua 6","numero": "6", "bairro": "Bairro 6", "cidade": "Cidade 6",
+        "estado": "PE", "cep": "00000006"}
+    },
+    { "id": 27, "cpf": "000.000.000-27", "nome":  "Professor 7", "matricula": "000027",
+      "endereco": {"logradouro": "Rua 7","numero": "7", "bairro": "Bairro 7", "cidade": "Cidade 7",
+        "estado": "PA", "cep": "00000007"}
+    },
+    { "id": 28, "cpf": "000.000.000-28", "nome":  "Professor 8", "matricula": "000028",
+      "endereco": {"logradouro": "Rua 8","numero": "8", "bairro": "Bairro 8", "cidade": "Cidade 8",
+        "estado": "PB", "cep": "00000008"}
+    },
+    { "id": 29, "cpf": "000.000.000-29", "nome":  "Professor 9", "matricula": "000029",
+      "endereco": {"logradouro": "Rua 9","numero": "9", "bairro": "Bairro 9", "cidade": "Cidade 9",
+        "estado": "AC", "cep": "00000009"}
+    },
+    { "id": 30, "cpf": "000.000.000-30", "nome":  "Professor 10", "matricula": "000030",
+      "endereco": {"logradouro": "Rua 10","numero": "10", "bairro": "Bairro 10", "cidade": "Cidade 10",
+        "estado": "CE", "cep": "00000010"}
+    },
+    { "id": 31, "cpf": "000.000.000-31", "nome":  "Professor 11", "matricula": "000031",
+      "endereco": {"logradouro": "Rua 11","numero": "11", "bairro": "Bairro 11", "cidade": "Cidade 11",
+        "estado": "RR", "cep": "00000011"}
+    },
+    { "id": 32, "cpf": "000.000.000-32", "nome":  "Professor 12", "matricula": "000032",
+      "endereco": {"logradouro": "Rua 12","numero": "12", "bairro": "Bairro 12", "cidade": "Cidade 12",
+        "estado": "RN", "cep": "00000012"}
+    },
+    { "id": 33, "cpf": "000.000.000-33", "nome":  "Professor 13", "matricula": "000033",
+      "endereco": {"logradouro": "Rua 13","numero": "13", "bairro": "Bairro 13", "cidade": "Cidade 13",
+        "estado": "RO", "cep": "00000013"}
+    },
+    { "id": 34, "cpf": "000.000.000-34", "nome":  "Professor 14", "matricula": "000034",
+      "endereco": {"logradouro": "Rua 14","numero": "14", "bairro": "Bairro 14", "cidade": "Cidade 14",
+        "estado": "PE", "cep": "00000014"}
+    },
+    { "id": 35, "cpf": "000.000.000-35", "nome":  "Professor 15", "matricula": "000035",
+      "endereco": {"logradouro": "Rua 15","numero": "15", "bairro": "Bairro 15", "cidade": "Cidade 15",
+        "estado": "AM", "cep": "00000015"}
+    },
+    { "id": 36, "cpf": "000.000.000-36", "nome":  "Professor 16", "matricula": "000036",
+      "endereco": {"logradouro": "Rua 16","numero": "16", "bairro": "Bairro 16", "cidade": "Cidade 16",
+        "estado": "SE", "cep": "00000016"}
+    },
+    { "id": 37, "cpf": "000.000.000-37", "nome":  "Professor 17", "matricula": "000037",
+      "endereco": {"logradouro": "Rua 17","numero": "17", "bairro": "Bairro 17", "cidade": "Cidade 17",
+        "estado": "MA", "cep": "00000017"}
+    },
+    { "id": 38, "cpf": "000.000.000-38", "nome":  "Professor 18", "matricula": "000038",
+      "endereco": {"logradouro": "Rua 18","numero": "18", "bairro": "Bairro 18", "cidade": "Cidade 18",
+        "estado": "PB", "cep": "00000018"}
+    },
+    { "id": 39, "cpf": "000.000.000-39", "nome":  "Professor 19", "matricula": "000039",
+      "endereco": {"logradouro": "Rua 19","numero": "19", "bairro": "Bairro 19", "cidade": "Cidade 19",
+        "estado": "AL", "cep": "00000019"}
+    },
+    { "id": 40, "cpf": "000.000.000-40", "nome":  "Professor 20", "matricula": "000040",
+      "endereco": {"logradouro": "Rua 20","numero": "20", "bairro": "Bairro 20", "cidade": "Cidade 20",
+        "estado": "BA", "cep": "00000020"}
+    }
   ]
 }

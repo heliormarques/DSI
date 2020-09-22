@@ -1,5 +1,5 @@
 import 'dart:convert';
-
+import 'package:dsi_app/professor.dart';
 import 'package:dsi_app/aluno.dart';
 import 'package:dsi_app/constants.dart';
 import 'package:dsi_app/home.dart';
@@ -64,6 +64,8 @@ class DSIApp extends StatelessWidget {
       '/maintain_pessoa': (context) => MaintainPessoaPage(),
       '/list_aluno': (context) => ListAlunoPage(),
       '/maintain_aluno': (context) => MaintainAlunoPage(),
+      '/maintain_professor': (context) => MaintainProfessorPage(),
+      '/list_professor': (context) => ListProfessorPage(),
     };
   }
 }
@@ -93,5 +95,11 @@ _processData(jsonString) {
   jsonMaps['alunos']
       .map<Aluno>((json) => Aluno.fromJson(json))
       .toList()
-      .forEach((aluno) => alunoController.save(aluno));
+      .forEach((aluno) => alunoController.save(aluno)
+  );
+  jsonMaps['professors']
+      .map<Professor>((json) => Professor.fromJson(json))
+      .toList()
+      .forEach((professor) => professorController.save(professor)
+  );
 }
